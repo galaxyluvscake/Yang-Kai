@@ -16,8 +16,8 @@ module.exports = {
   uniquecommands: ["sc", "support"],
   description: "All miscellaneous commands",
   start: async (Atlas, m, { pushName, prefix, inputCMD, doReact }) => {
-    let pic = "https://graph.org/file/41991b18b07dd6649669f.mp4"
-    let pic2 = "https://graph.org/file/636396a150f20c06d7193.mp4"
+    let pic = fs.readFileSync("./Assets/cringe.mp4");
+    let pic2 = fs.readFileSync("./Assets/finger-wag-dolla-shack.mp4");
     switch (inputCMD) {
       case "script":
       case "sc":
