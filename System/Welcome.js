@@ -5,7 +5,7 @@ module.exports = async (Atlas, anu) => {
     let metadata = await Atlas.groupMetadata(anu.id);
     let participants = anu.participants;
     let desc = metadata.desc;
-    if (desc == undefined) desc = "No Description";
+    if (desc == undefined) desc = "Pas de Description";
 
     for (let num of participants) {
       try {
@@ -18,20 +18,20 @@ module.exports = async (Atlas, anu) => {
         const WELstatus = await checkWelcome(anu.id);
         let WAuserName = num;
         console.log(
-          `\n+${WAuserName.split("@")[0]} Joined/Got Added in: ${
+          `\n+${WAuserName.split("@")[0]} a été ajouté à: ${
             metadata.subject
           }\n`
         );
         Atlastext = `
-Hello @${WAuserName.split("@")[0]} Senpai,
+Yo @${WAuserName.split("@")[0]},
 
-Welcome to *${metadata.subject}*.
+T'as rejoint *${metadata.subject}*.
 
-*🧣 Group Description 🧣*
+*🧣 Description 🧣*
 
 ${desc}
 
-*Thank You.*
+*Ton Babiere Maintenant.*
   `;
         if (WELstatus) {
           await Atlas.sendMessage(anu.id, {
@@ -44,12 +44,12 @@ ${desc}
         const WELstatus = await checkWelcome(anu.id);
         let WAuserName = num;
         console.log(
-          `\n+${WAuserName.split("@")[0]} Left/Got Removed from: ${
+          `\n+${WAuserName.split("@")[0]} s'est fait shiet de: ${
             metadata.subject
           }\n`
         );
         Atlastext = `
-  @${WAuserName.split("@")[0]} Senpai left the group.
+  @${WAuserName.split("@")[0]} a pull up.
   `;
         if (WELstatus) {
           await Atlas.sendMessage(anu.id, {

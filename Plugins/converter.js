@@ -206,7 +206,7 @@ module.exports = {
             return Atlas.sendMessage(
               m.from,
               {
-                text: `*Your video size is too big!*\n\n*Max video size:* 5MB`,
+                text: `*Your video's dick size is too big!*\n\n*Max video size:* 5MB`,
               },
               { quoted: m }
             );
@@ -214,7 +214,7 @@ module.exports = {
         } else {
           await doReact("❌");
           return m.reply(
-            `Plese provide an *Image* / *Video* to generate a link!`
+            `Please provide an *Image* / *Video* to generate a link!`
           );
         }
         await fs.unlinkSync(media5);

@@ -14,3 +14,4 @@ commands.prefix = global.prefa;
   };
 
   module.exports = {readcommands, commands};
+  

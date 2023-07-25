@@ -13,6 +13,7 @@ const {
   delGroupChatbot,
 } = require("../System/MongoDB/MongoDb_Core");
 let mergedCommands = [
+  "afk",
   "admins",
   "admin",
   "setgcname",
@@ -45,6 +46,7 @@ module.exports = {
   name: "groupanagement",
   alias: [...mergedCommands],
   uniquecommands: [
+    "afk",
     "admins",
     "setgcname",
     "delete",
@@ -91,6 +93,19 @@ module.exports = {
     let messageSender = m.sender;
     let quotedsender = m.quoted ? m.quoted.sender : mentionByTag[0];
     switch (inputCMD) {
+      /*
+      case "afk": {
+        if (isBan) return m.reply("You're banned nigga")	 			
+        if (isBanChat) return m.reply(mess.bangc)
+        Atlas.sendMessage(from, { react: { text: "🫡" , key: m.key }})
+        
+        let user = global.db.users[m.sender]
+        user.afkReason = args.join(" ")
+        replay(`*${m.pushName} is currently AFK.*\n*Reason:* ${args.join(" ") ? args.join(" ") : ''}`)
+        }
+      break;
+        */
+
       case "admins":
       case "admin":
         if (!isMedia) {
@@ -223,7 +238,7 @@ module.exports = {
             {
               text: `@${
                 mentionedUser.split("@")[0]
-              } Senpai is not an *Admin* of this group!`,
+              } This nigga is not an *Admin* of this group!`,
               mentions: [mentionedUser],
             },
             { quoted: m }
@@ -238,7 +253,7 @@ module.exports = {
                 {
                   text: `Sorry @${
                     mentionedUser.split("@")[0]
-                  } Senpai, you have been *Demoted* by @${
+                  } Nigga, you have been *Demoted* by @${
                     messageSender.split("@")[0]
                   } !`,
                   mentions: [mentionedUser, messageSender],
@@ -329,7 +344,6 @@ module.exports = {
 
         break;
 
-      case "groupinfo":
       case "gcinfo":
         if (!m.isGroup) {
           await doReact("❌");
@@ -369,7 +383,6 @@ module.exports = {
         break;
 
       case "hidetag":
-      case "htag":
         if (!isAdmin) {
           await doReact("❌");
           return m.reply(`*You* must be *Admin* in order to use this Command!`);
@@ -400,15 +413,15 @@ module.exports = {
         }
         await doReact("👋");
         await Atlas.sendMessage(m.from, {
-          image: { url: "https://wallpapercave.com/wp/wp9667218.png" },
-          caption: `I'm Leaving this group on request... \n\nTake care everyone :)`,
+          image: { url: "https://graph.org/file/6cbc676518823239d88ef.jpg" },
+          caption: `Tchai moi j'ai pull up hein... \n\nVous tous vos babiere. 🖕🖕🖕`,
           mentions: participants.map((a) => a.id),
           quoted: m,
         }).then(async () => {
           Atlas.groupLeave(m.from).catch((e) => {
             Atlas.sendMessage(
               m.from,
-              { text: `An error Occurd !` },
+              { text: `An error Occured !` },
               { quoted: m }
             );
           });
@@ -449,7 +462,7 @@ module.exports = {
             {
               text: `@${
                 mentionedUser.split("@")[0]
-              } Senpai is already an *Admin* of this group!`,
+              } This nigga is already an *Admin* of this group!`,
               mentions: [mentionedUser],
             },
             { quoted: m }
@@ -488,6 +501,7 @@ module.exports = {
         break;
 
       case "remove":
+      case "shiet":
         if (!isAdmin) {
           await doReact("❌");
           return m.reply(`*You* must be *Admin* in order to use this Command!`);
