@@ -212,7 +212,7 @@ module.exports = async (Atlas, m, commands, chatUpdate) => {
     if (body == prefix) {
       await doReact("❌");
       return m.reply(
-        `Hi senpai, I am ${botName}.\n\nUptime: ${uptime}\n\nType *${prefix}help* to see the list of my commands.`
+        `Yo my nigga, I am ${botName}.\n\nUptime: ${uptime()}\n\nType *${prefix}help* to see the list of my commands.`
       );
     }
     if (body.startsWith(prefix) && !icmd) {
