@@ -309,7 +309,7 @@ module.exports = async (Atlas, m, commands, chatUpdate) => {
 
     
 
-    let upTxt = `〘${botName} Personal Edition〙`;
+    let upTxt = `〘${botName} Personal Edition〙\nUptime: ${uptime()}\nMode: ${botWorkMode}`;
     Atlas.setStatus(upTxt);
 
     cmd.start(Atlas, m, {
