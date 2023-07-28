@@ -189,7 +189,7 @@ module.exports = {
                 {
                   text: `@${
                     userId.split("@")[0]
-                  } is successfully removed to mods`,
+                  } is successfully removed from mods`,
                   mentions: [userId],
                 },
                 { quoted: m }
@@ -462,6 +462,7 @@ module.exports = {
             caption: `Character number *${intinput}* - *${botNames[intinput]}* has been set Successfully by *${pushName}*`,
           },
           { quoted: m }
+        
         );
         break;
       
@@ -618,6 +619,8 @@ module.exports = {
             await doReact("🧩");
             await setBotMode("self");
             await m.reply(`Bot has been set to *Self* mode Successfully !`);
+            let upTxt = `〘${botName} Personal Edition〙\nUptime: ${uptime()}\nMode: ${botWorkMode}`;
+            Atlas.setStatus(upTxt);
           }
         } else if (args[0] == "private") {
           if (chechbotMode == "private") {
@@ -629,6 +632,8 @@ module.exports = {
             await doReact("🧩");
             await setBotMode("private");
             await m.reply(`Bot has been set to *Private* mode Successfully !`);
+            let upTxt = `〘${botName} Personal Edition〙\nUptime: ${uptime()}\nMode: ${botWorkMode}`;
+            Atlas.setStatus(upTxt);
           }
         } else if (args[0] == "public") {
           if (chechbotMode == "public") {
@@ -640,11 +645,13 @@ module.exports = {
             await doReact("🧩");
             await setBotMode("public");
             await m.reply(`Bot has been set to *Public* mode Successfully !`);
+            let upTxt = `〘${botName} Personal Edition〙\nUptime: ${uptime()}\nMode: ${botWorkMode}`;
+            Atlas.setStatus(upTxt);
           }
         } else {
           await doReact("❌");
           return m.reply(
-            `Please provide *Self / Private / Public* mode names !\n\n*Example:*\n\n${prefix}mode public`
+            `Please provide *Self / Private / Public* mode names!\n\n*Example:*\n\n${prefix}mode public`
           );
         }
 

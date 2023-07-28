@@ -210,9 +210,9 @@ module.exports = async (Atlas, m, commands, chatUpdate) => {
     }
 
     if (body == prefix) {
-      await doReact("❌");
+      await doReact("🥰");
       return m.reply(
-        `Hi senpai, I am ${botName}.\n\nUptime: ${uptime}\n\nType *${prefix}help* to see the list of my commands.`
+        `Yo my nigga, I am ${botName}.\n\n🧩 Uptime: *${uptime()}*\n\n⚙ Mode: *${botWorkMode}*\n\nType *${prefix}help* to see the list of my commands.`
       );
     }
     if (body.startsWith(prefix) && !icmd) {
@@ -309,7 +309,7 @@ module.exports = async (Atlas, m, commands, chatUpdate) => {
 
     
 
-    let upTxt = `〘  ${botName} Personal Edition  〙\n⚡ Uptime: ${uptime()}\n⚙ Mode: ${botWorkMode}`;
+    let upTxt = `〘${botName} Personal Edition〙`;
     Atlas.setStatus(upTxt);
 
     cmd.start(Atlas, m, {

@@ -93,18 +93,16 @@ module.exports = {
     let messageSender = m.sender;
     let quotedsender = m.quoted ? m.quoted.sender : mentionByTag[0];
     switch (inputCMD) {
-      /*
+      
       case "afk": {
-        if (isBan) return m.reply("You're banned nigga")	 			
-        if (isBanChat) return m.reply(mess.bangc)
-        Atlas.sendMessage(from, { react: { text: "🫡" , key: m.key }})
+        Atlas.sendMessage(from, { react: { text: "💤" , key: m.key }})
         
         let user = global.db.users[m.sender]
         user.afkReason = args.join(" ")
         replay(`*${m.pushName} is currently AFK.*\n*Reason:* ${args.join(" ") ? args.join(" ") : ''}`)
         }
       break;
-        */
+        
 
       case "admins":
       case "admin":
@@ -215,11 +213,11 @@ module.exports = {
         }
         if (quotedsender.includes(m.sender)) {
           await doReact("❌");
-          return m.reply(`You can't demote yourself !`);
+          return m.reply(`You can't demote yourself dumbass!`);
         }
         if (quotedsender.includes(botNumber)) {
           await doReact("❌");
-          return m.reply(`Sorry, I can't demote myself !`);
+          return m.reply(`I can't demote myself dumbass!`);
         }
 
         if (!text && !m.quoted) {
@@ -268,7 +266,7 @@ module.exports = {
             {
               text: `An error occured while trying to demote @${
                 mentionedUser.split("@")[0]
-              } Senpai !\n\n*Error:* ${error}`,
+              } !\n\n*Error:* ${error}`,
               mentions: [mentionedUser],
             },
             { quoted: m }
