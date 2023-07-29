@@ -27,13 +27,13 @@ module.exports = {
         );
         let repo = repoInfo.data;
         let txt = `Lolz, this repo is private bruv.`;
-        Atlas.sendMessage(m.from, { video: pic, caption: txt }, { quoted: m });
+        Atlas.sendMessage(m.from, { gifPlayback: pic, caption: txt }, { quoted: m });
         break;
 
       case "support":
         await doReact("🙅‍♂️");
         let txt2 = `The only support I know is child support. 😔`;
-        Atlas.sendMessage(m.from, { video: pic2, caption: txt2 }, { quoted: m });
+        Atlas.sendMessage(m.from, { gifPlayback: pic2, caption: txt2 }, { quoted: m });
         break;
 
       case "help":
