@@ -211,9 +211,9 @@ module.exports = async (Atlas, m, commands, chatUpdate) => {
 
     if (body == prefix) {
       await doReact("🥰");
-      await Atlas.sendMessage(
-        m.from,
-        { Image: { url: botImage7 }, caption: `Yo my nigga, I am ${botName}.\n\n🧩 Uptime: *${uptime()}*\n\n⚙ Mode: *${botWorkMode}*\n\nType *${prefix}help* to see the list of my commands.`},
+      await Atlas.sendMessage(m.from,{image:{url:botImage7},caption:`\nKonichiwa *${pushName}* senpai, I am *${botName}* bot. type *${prefix}help* to get my full command list.\n\n_🧩 Server Uptime:_ *${uptime()}*\n_🎀 Status:_ *Operational*\n`},{quoted:m})
+      await m.reply(
+        { Image: { url: botImage1 }, caption: `Yo my nigga, I am ${botName}.\n\n🧩 Uptime: *${uptime()}*\n\n⚙ Mode: *${botWorkMode}*\n\nType *${prefix}help* to see the list of my commands.`},
         { quoted: m }
       );
       /*

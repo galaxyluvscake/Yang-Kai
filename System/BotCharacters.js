@@ -75,7 +75,6 @@ global.charID0 = {
     botImage4 : "https://i.imgur.com/MClOeqe.jpeg",
     botImage5 : "https://i.imgur.com/MClOeqe.jpeg",
     botImage6 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage7 : "https://i.imgur.com/MClOeqe.jpeg",
 }
 
 global.charID1 = {
@@ -87,7 +86,6 @@ global.charID1 = {
   botImage4 : "https://wallpapercave.com/wp/wp11733443.jpg",
   botImage5 : "https://wallpapercave.com/wp/wp11733435.jpg",
   botImage6 : "https://wallpapercave.com/wp/wp11733458.jpg",
-  botImage7 : "https://wallpapercave.com/wp/wp11253614.jpg",
 }
 
 global.charID2 = {
@@ -99,7 +97,6 @@ global.charID2 = {
   botImage4 : "https://images6.alphacoders.com/123/1238644.jpg",
   botImage5 : "https://images2.alphacoders.com/128/1280153.jpg",
   botImage6 : "https://images7.alphacoders.com/129/1292566.png",
-  botImage7 : "https://images5.alphacoders.com/126/1264439.jpg",
 }
 
 global.charID3 = {
@@ -111,7 +108,6 @@ global.charID3 = {
   botImage4 : "https://images6.alphacoders.com/128/1289086.jpg",
   botImage5 : "https://images2.alphacoders.com/124/1247132.jpg",
   botImage6 : "https://images2.alphacoders.com/128/1286464.jpg",
-  botImage7 : "https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/11/Chainsaw-Man-Denji-e-Power.webp?resize=1068%2C601&ssl=1",
 }
 
 global.charID4 = {
@@ -123,7 +119,6 @@ global.charID4 = {
   botImage4 : "https://images6.alphacoders.com/981/981839.jpg",
   botImage5 : "https://images4.alphacoders.com/907/907474.jpg",
   botImage6 : "https://images4.alphacoders.com/923/923051.jpg",
-  botImage7 : "https://images3.alphacoders.com/949/949253.jpg",
 }
 
 global.charID5 = {
@@ -135,7 +130,6 @@ global.charID5 = {
   botImage4 : "https://images3.alphacoders.com/127/1272368.png",
   botImage5 : "https://images3.alphacoders.com/122/1225194.png",
   botImage6 : "https://wallpapercave.com/wp/wp4624851.jpg",
-  botImage7 : "https://images4.alphacoders.com/100/1002134.png",
 }
 
 global.charID6 = {
@@ -147,7 +141,6 @@ global.charID6 = {
   botImage4 : "https://wallpapercave.com/uwp/uwp1229563.jpeg",
   botImage5 : "https://images7.alphacoders.com/129/1294874.jpg",
   botImage6 : "https://wallpapercave.com/wp/wp5758284.jpg",
-  botImage7 : "https://wallpapercave.com/wp/wp10524580.jpg",
 }
 
 global.charID7 = {
@@ -159,7 +152,6 @@ global.charID7 = {
   botImage4 : "https://images8.alphacoders.com/122/1223407.jpg",
   botImage5 : "https://images7.alphacoders.com/121/1211490.jpg",
   botImage6 : "https://images3.alphacoders.com/122/1223868.png",
-  botImage7 : "https://images2.alphacoders.com/125/1257915.jpg",
 }
 
 global.charID8 = {
@@ -170,8 +162,7 @@ global.charID8 = {
   botImage3 : "https://wallpapercave.com/wp/wp4781992.jpg",
   botImage4 : "https://images5.alphacoders.com/106/1065278.jpg",
   botImage5 : "https://e1.pxfuel.com/desktop-wallpaper/986/75/desktop-wallpaper-kiyotaka-ayanokoji-1920x1080-ayanokoji.jpg",
-  botImage6 : "https://wallpapercave.com/wp/wp6239118.jpg",
-  botImage7 : "https://wallpapers.com/images/file/kiyotaka-ayanokoji-in-pink-qs33qgqm79ccsq7n.jpg",
+  botImage6 : "https://wallpapercave.com/wp/wp6239118.jpg"
 }
 
 global.charID9 = {
@@ -183,7 +174,6 @@ global.charID9 = {
   botImage4 : "https://wallpapercave.com/uwp/uwp1175283.jpeg",
   botImage5 : "https://wallpapercave.com/uwp/uwp1175295.jpeg",
   botImage6 : "https://wallpapercave.com/uwp/uwp1175288.jpeg",
-  botImage7 : "https://wallpapercave.com/wp/wp8228630.jpg",
 }
 
 
@@ -196,7 +186,6 @@ global.charID10 = {
   botImage4 : "https://images4.alphacoders.com/124/1249307.jpg",
   botImage5 : "https://images.alphacoders.com/109/1092221.jpg",
   botImage6 : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e2826f42-0f8b-474b-a8fe-4eafcf19e668/de4mm6i-06106be4-66ec-4afc-893f-a0e636f0d54b.png/v1/fill/w_1192,h_670,q_70,strp/chizuru_ichinose_wallpaper__kanojo__okarishimasu__by_galangcp_de4mm6i-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZTI4MjZmNDItMGY4Yi00NzRiLWE4ZmUtNGVhZmNmMTllNjY4XC9kZTRtbTZpLTA2MTA2YmU0LTY2ZWMtNGFmYy04OTNmLWEwZTYzNmYwZDU0Yi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.1UYFEEtJq_VcWVVJ8mlR7pdEdS8F83RhcFKl0e1e5xE",
-  botImage7 : "https://images3.alphacoders.com/128/1288059.png",
 }
 
 
@@ -209,7 +198,6 @@ global.charID11 = {
   botImage4 : "https://images.alphacoders.com/729/729307.png",
   botImage5 : "https://images2.alphacoders.com/720/720108.png",
   botImage6 : "https://images4.alphacoders.com/764/764738.jpg",
-  botImage7 : "https://images.alphacoders.com/711/711900.png",
 }
 
 
@@ -222,7 +210,6 @@ global.charID12 = {
   botImage4 : "https://images2.alphacoders.com/125/1254137.jpg",
   botImage5 : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c34bd178-74e0-4f45-8e9d-497d7fe05067/de63flz-ff249d9b-4a54-4161-a035-bbacf2c08e3a.jpg/v1/fill/w_1192,h_670,q_70,strp/sakurasawa_sumi_kanojo_okarishimasu_by_eriri94_de63flz-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQwNyIsInBhdGgiOiJcL2ZcL2MzNGJkMTc4LTc0ZTAtNGY0NS04ZTlkLTQ5N2Q3ZmUwNTA2N1wvZGU2M2Zsei1mZjI0OWQ5Yi00YTU0LTQxNjEtYTAzNS1iYmFjZjJjMDhlM2EuanBnIiwid2lkdGgiOiI8PTI1MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.6nao2AEE11b72jYpTygsqBehzNQqAPqEvHxV1Sr-Ef0",
   botImage6 : "https://images8.alphacoders.com/124/1249290.png",
-  botImage7 : "https://moewalls.com/wp-content/uploads/2022/07/sumi-sakurasawa-hmph-rent-a-girlfriend-thumb.jpg",
 }
 
 global.charID13 = {
@@ -234,7 +221,6 @@ global.charID13 = {
   botImage4 : "https://wallpapercave.com/wp/wp6179983.jpg",
   botImage5 : "https://wallpapercave.com/wp/wp6180278.jpg",
   botImage6 : "https://wallpapercave.com/wp/wp4384708.jpg",
-  botImage7 : "https://wallpapercave.com/wp/wp6099650.png",
 }
 
 global.charID14 = {
@@ -246,7 +232,6 @@ global.charID14 = {
   botImage4 : "https://wallpapercave.com/wp/wp8695798.jpg",
   botImage5 : "https://wallpapercave.com/wp/wp7856220.png",
   botImage6 : "https://wallpapercave.com/wp/wp9620423.png",
-  botImage7 : "https://wallpapercave.com/wp/wp5017991.jpg",
 }
 
 global.charID15 = {
@@ -258,7 +243,6 @@ global.charID15 = {
   botImage4 : "https://wallpapercave.com/wp/wp5894820.jpg",
   botImage5 : "https://wallpapercave.com/wp/wp1924816.png",
   botImage6 : "https://wallpapercave.com/wp/wp6600417.jpg",
-  botImage7 : "https://wallpapercave.com/wp/wp2535489.jpg",
 }
 
 
@@ -271,7 +255,6 @@ global.charID16 = {
   botImage4 : "https://images4.alphacoders.com/971/971659.jpg",
   botImage5 : "https://images.alphacoders.com/102/1027053.jpg",
   botImage6 : "https://images5.alphacoders.com/105/1057377.jpg",
-  botImage7 : "https://images4.alphacoders.com/972/972790.jpg",
 }
 
 
@@ -284,7 +267,6 @@ global.charID17 = {
   botImage4 : "https://images4.alphacoders.com/123/1233274.jpg",
   botImage5 : "https://images.alphacoders.com/124/1241835.png",
   botImage6 : "https://images4.alphacoders.com/123/1235462.jpg",
-  botImage7 : "https://images7.alphacoders.com/123/1236729.jpg",
 }
 
 
@@ -297,7 +279,6 @@ global.charID18 = {
   botImage4 : "https://wallpapercave.com/wp/wp10513585.jpg",
   botImage5 : "https://wallpapercave.com/wp/wp9650524.jpg",
   botImage6 : "https://wallpapercave.com/wp/wp10513578.jpg",
-  botImage7 : "https://wallpapercave.com/wp/wp4650481.jpg",
 }
 
 global.charID19 = {
@@ -309,7 +290,6 @@ global.charID19 = {
   botImage4 : "https://images6.alphacoders.com/126/1260043.png",
   botImage5 : "https://images6.alphacoders.com/124/1247977.jpg",
   botImage6 : "https://images2.alphacoders.com/125/1251795.jpg",
-  botImage7 : "https://images8.alphacoders.com/122/1229829.jpg",
 }
 
 global.charID20 = {
@@ -321,17 +301,15 @@ global.charID20 = {
   botImage4 : "https://graph.org/file/ffb68dd6516ab752a25b4.jpg",
   botImage5 : "https://graph.org/file/e5cc9a400ebf8d02c167d.jpg",
   botImage6 : "https://graph.org/file/e81a8e8af0a0ad48f4d9f.jpg",
-  botImage7 : "https://graph.org/file/59d13d9286aab22182986.jpg",
 }
 
 global.charID21 = {
   botName : "Zhuo Fan",
   botVideo : "https://graph.org/file/3ed3fb6532d91f8c8a1c1.mp4",
-  botImage1 : "https://graph.org/file/4d582445c1b88521a662d.jpg",
+  botImage1 : "https://graph.org/file/7e48356e61d40dc1e46ed.jpg",
   botImage2 : "https://graph.org/file/8deb381a93268c6fbe4b1.jpg",
   botImage3 : "https://graph.org/file/588ec99c764bee1bac79c.jpg",
   botImage4 : "https://graph.org/file/04fdd152a0b27d5e83c23.jpg",
   botImage5 : "https://graph.org/file/362aa85841a9fdbea7ccd.jpg",
   botImage6 : "https://graph.org/file/3d44b3619041610a0d576.jpg",
-  botImage7 : "https://graph.org/file/7e48356e61d40dc1e46ed.jpg",
 }

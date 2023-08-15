@@ -379,7 +379,7 @@ module.exports = {
           await doReact("❌");
           return Atlas.sendMessage(
             m.from,
-            { text: `Please enter a character number between 0-20 to set !` },
+            { text: `Please enter a character number between 0-21 to set !` },
             { quoted: m }
           );
         }
@@ -423,6 +423,7 @@ module.exports = {
           "Shinbou",
           "Eiko",
           "Yang Kai",
+          "Zhuo Fan",
         ];
         const botLogos = [
           "https://wallpapercave.com/wp/wp5924545.jpg",
@@ -446,6 +447,7 @@ module.exports = {
           "https://wallpapercave.com/wp/wp4650481.jpg",
           "https://images8.alphacoders.com/122/1229829.jpg",
           "https://graph.org/file/f8b61f312fdcdd12254ec.jpg",
+          "https://graph.org/file/4d582445c1b88521a662d.jpg",
         ];
 
         checkChar = await getChar();
@@ -477,7 +479,7 @@ module.exports = {
         await doReact("🎀");
           return Atlas.sendMessage(
             m.from,
-            { text: `『  *Bot Charactes*  』\n\n\n_0 - Atlas MD_\n\n_1 - Power MD_\n\n_2 - Makima MD_\n\n_3 - Denji MD_\n\n_4 - Zero Two_\n\n_5 - Chika MD_\n\n_6 - Miku MD_\n\n_7 - Marin MD_\n\n_8 - Ayanokoji MD_\n\n_9 - Ruka MD_\n\n_10 - Mizuhara MD_\n\n_11 - Rem MD_\n\n_12 - Sumi MD_\n\n_13 - Kaguya MD_\n\n_14 - Yumeko MD_\n\n_15 - Kurumi MD_\n\n_16 - Mai MD_\n\n_17 - Yor MD_\n\n_18 - Shinbou MD_\n\n_19 - Eiko MD_\n\n_20 - Yang Kai MD_\n\n\nUsage Example: *${prefix}setchar 11*` },
+            { text: `『  *Bot Charactes*  』\n\n\n_0 - Atlas MD_\n\n_1 - Power MD_\n\n_2 - Makima MD_\n\n_3 - Denji MD_\n\n_4 - Zero Two_\n\n_5 - Chika MD_\n\n_6 - Miku MD_\n\n_7 - Marin MD_\n\n_8 - Ayanokoji MD_\n\n_9 - Ruka MD_\n\n_10 - Mizuhara MD_\n\n_11 - Rem MD_\n\n_12 - Sumi MD_\n\n_13 - Kaguya MD_\n\n_14 - Yumeko MD_\n\n_15 - Kurumi MD_\n\n_16 - Mai MD_\n\n_17 - Yor MD_\n\n_18 - Shinbou MD_\n\n_19 - Eiko MD_\n\n_20 - Yang Kai MD_\n\n_21 - Zhuo Fan MD_\n\n\nUsage Example: *${prefix}setchar 11*` },
             { quoted: m }
           );
         
